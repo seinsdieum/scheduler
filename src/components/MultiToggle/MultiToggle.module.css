@@ -1,0 +1,39 @@
+.multi__select {
+    background: #303030;
+    min-height: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 10px;
+    transition: 0.3s all ease-in-out;
+}
+.multi__toggle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+.multi__toggle button {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.multi__toggle button:hover, .multi__toggle button:active, .multi__toggle button:focus {
+    border: none;
+    outline: none;
+}
+
+.multi__toggle:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
