@@ -8,7 +8,7 @@ import {store} from "./store/index.js";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 <Provider store={store}>
-    <BrowserRouter basename="/scheduler/">
+    <BrowserRouter basename={"/scheduler"}>
         <App />
     </BrowserRouter>
 </Provider>
