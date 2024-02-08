@@ -15,7 +15,6 @@ const Schedule = () => {
         {name: 'Четная', action: () => dispatch({type: 'CHANGE_WEEK', payload: 2})},
     ]
 
-    const week = useSelector(state => state.options.currentWeek)
     return (
         <div className={style.schedule}>
             <MultiToggle current={false} options={toggleOptions}></MultiToggle>

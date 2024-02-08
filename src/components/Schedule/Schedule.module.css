@@ -14,9 +14,3 @@
 .schedule > h1 {
     margin-bottom: 1em;
 }
-
-@media screen and (max-width: 468px) {
-    .schedule {
-        width: 100vw;
-    }
-}
