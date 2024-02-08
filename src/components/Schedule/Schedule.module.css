@@ -1,10 +1,10 @@
 .schedule {
-    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+    width: 300px;
 }
 
 .schedule > * {
@@ -13,4 +13,10 @@
 
 .schedule > h1 {
     margin-bottom: 1em;
+}
+
+@media screen and (max-width: 468px) {
+    .schedule {
+        width: 100vw;
+    }
 }

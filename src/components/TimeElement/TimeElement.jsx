@@ -3,10 +3,13 @@ import style from './TimeElement.module.css'
 const TimeElement = ({element}) => {
     return (
         <div className={style.element}>
-            <h3>{element.name}</h3>
+            <div>
+                <h3><span className={style.type}>{element.type}</span>{element.name} </h3>
+                <p className={style.time}>{element.time}</p>
+            </div>
            <div className={style.right}>
-               <p className={style.time}>{element.time}</p>
                <p>{element.auditory}</p>
+               <p className={style.time}>{element.teacher}</p>
            </div>
 
         </div>

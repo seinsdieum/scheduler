@@ -18,7 +18,6 @@ const Schedule = () => {
     const week = useSelector(state => state.options.currentWeek)
     return (
         <div className={style.schedule}>
-            <h1>Расписание</h1>
             <MultiToggle current={false} options={toggleOptions}></MultiToggle>
             <div>
                 {currentSchedule.map(d => <WeekDay key={d.day} weekDay={d}></WeekDay>)}
