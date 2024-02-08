@@ -24,24 +24,23 @@ const wednesdaySchedule = [
 ]
 const thirsdaySchedule = [
     createElement('14:40', 'Комп гео', '324-1', 'Дятко', 'лр'),
-    createElement('16:30', 'Комп гео', 'хз-где', 'Дятко', 'лк', 1),
+    createElement('16:30', 'Комп гео', '132-4', 'Дятко', 'лк', 1),
     createElement('16:30', 'РиАТ', '132-4', ',ehvfrjdf', 'лк', 2),
     createElement('18:05', 'ООП', '132-4', 'Мущук', 'лк'),
-    createElement('19:40', 'ТПВИ', 'непомню', 'крутой перец', 'лр'),
+    createElement('19:40', 'ТРВИ', '324-1', 'Кудлацкая', 'лр'),
 ]
 
 const fridaySchedule = [
     createElement('14:40', 'Физра', 'Зал епт', 'решайте сами', 'лк'),
-    createElement('14:40', 'Мат прога', '200-3a', ',ehvfrjdf', 'лк'),
-    createElement('14:40', 'Мат прога', '200-3a', ',ehvfrjdf', 'пз', 1),
-    createElement('14:40', 'Мат прога', '200-3a', ',ehvfrjdf', 'лр', 2),
+    createElement('16:30', 'ООП', '209-1', 'рифмы и панченко', 'лр'),
+    createElement('18:05', 'ТПВИ', '114-4', 'клевый чел', 'лр'),
+    createElement('19:40', 'Философия', '336-4', ',ehvfrjdf', 'пз'),
 ]
 
 const saturdaySchedule = [
-    createElement('14:40', 'Мат прога', '200-3a', ',ehvfrjdf', 'лк'),
-    createElement('14:40', 'Мат прога', '200-3a', ',ehvfrjdf', 'лк'),
-    createElement('14:40', 'Мат прога', '200-3a', ',ehvfrjdf', 'пз', 1),
-    createElement('14:40', 'Мат прога', '200-3a', ',ehvfrjdf', 'лр', 2),
+    createElement('9:35', 'БД', '222-4', 'Нистюк', 'лк'),
+    createElement('11:25', 'Философия', '408-2', ',ehvfrjdf', 'лк'),
+    createElement('14:40', 'Пить пиво', 'Где угодно!', '', 'пз')
 ]
 
 
