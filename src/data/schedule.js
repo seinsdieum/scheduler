@@ -40,7 +40,7 @@ const fridaySchedule = [
 const saturdaySchedule = [
     createElement('9:35', 'БД', '222-4', 'Нистюк', 'лк'),
     createElement('11:25', 'Философия', '408-2', ',ehvfrjdf', 'лк'),
-    createElement('14:40', 'Пить пиво', 'Где угодно!', '', 'пз')
+    createElement('14:40', 'Пить пиво', 'Где угодно!', 'ааа', 'пз')
 ]
 
 
