@@ -11,8 +11,8 @@ const Schedule = () => {
 
     const dispatch = useDispatch()
     const toggleOptions = [
-        {name: '1 неделя', action: () => dispatch({type: 'CHANGE_WEEK', payload: 1})},
-        {name: '2 неделя', action: () => dispatch({type: 'CHANGE_WEEK', payload: 2})},
+        {name: 'Нечетная', action: () => dispatch({type: 'CHANGE_WEEK', payload: 1})},
+        {name: 'Четная', action: () => dispatch({type: 'CHANGE_WEEK', payload: 2})},
     ]
 
     const week = useSelector(state => state.options.currentWeek)
