@@ -3,12 +3,10 @@
     flex-direction: column;
     background: rgba(255, 255, 255, 0.1);
     width: 100%;
-    padding: 10px;
     border-radius: 15px;
     transition: 0.3s all ease-in-out;
     margin-bottom: 10px;
     overflow: hidden;
-    max-height: 100px;
 }
 
 .week__day h2 {
@@ -30,7 +28,7 @@
 }
 
 .week__day.expanded {
-    max-height: 500px;
+
     background: rgba(255, 255, 255, 0.05);
 
 }
@@ -39,4 +37,13 @@
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
     padding-bottom: 5px;
 }
+
+.week__day__bar {
+    background: rgb(47, 47, 47);
+    width: 100%;
+    padding: 10px;
+    z-index: 1;
+}
+
+
 

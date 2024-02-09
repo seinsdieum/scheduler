@@ -4,11 +4,15 @@ import TimeElement from "../TimeElement/TimeElement.jsx";
 import {useSelector} from "react-redux";
 const WeekDay = ({weekDay}) => {
 
+
+
     const [expanded, setExpanded] = useState(false)
     const week = useSelector(state => state.options.currentWeek)
     return (
         <div onClick={() => setExpanded(!expanded)} className={`${style.week__day} ${expanded ? style.expanded : ''}`}>
-            <h2>{weekDay.day}</h2>
+            <div className={style.week__day__bar}>
+                <h2 >{weekDay.day}</h2>
+            </div>
             {
                 expanded
                     ? <div className={style.times}>

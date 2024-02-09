@@ -4,6 +4,8 @@
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    animation: 0.3s appear ease-in-out;
+    padding: 10px;
 }
 
 .element:not(:last-child) {
@@ -38,10 +40,10 @@
 @keyframes appear {
     from {
         opacity: 0;
-        transform: scaleY(0);
+        margin-top: -25%;
     }
     to {
-        transform: scaleY(1);
+        margin-top: 0;
         opacity: 1;
     }
 }
