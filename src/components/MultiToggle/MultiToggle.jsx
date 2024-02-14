@@ -22,7 +22,7 @@ const MultiToggle = ({options, current, ...props}) => {
     return (
         <div ref={toggleRef} className={style.multi__toggle}>
             {options ? <>
-                {options.map(opt => <button key={opt.name} onClick={e => handleToggle(opt.action, e)}>{opt.name}</button>)}
+                {options.map(opt => <div className={style.toggle} key={opt.name} onClick={e => handleToggle(opt.action, e)}>{opt.name}</div>)}
                 <div className={style.multi__select} ref={selectRef}></div>
             </> : ''}
         </div>

@@ -22,11 +22,16 @@
     border-radius: 10px;
     transition: 0.2s ease-in-out;
 }
-.multi__toggle button {
+.multi__toggle .toggle {
     width: 100%;
     background: none;
     border: none;
     outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .multi__toggle button:hover, .multi__toggle button:active, .multi__toggle button:focus {
