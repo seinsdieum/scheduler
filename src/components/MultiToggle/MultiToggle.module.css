@@ -32,6 +32,7 @@
     align-items: center;
     cursor: pointer;
     font-weight: bold;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .multi__toggle button:hover, .multi__toggle button:active, .multi__toggle button:focus {

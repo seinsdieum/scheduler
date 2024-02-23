@@ -11,7 +11,7 @@ const mondaySchedule = [
 
 const tuesdaySchedule = [
     createElement('14:40', 'БД', '110а-1', 'Харланович', 'лр'),
-    createElement('16:30', 'ТРПИ', '324-1', 'Кудлацкая', 'лh', 1),
+    createElement('16:30', 'ТРПИ', '324-1', 'Кудлацкая', 'лр', 1),
     createElement('16:30', 'РиАТ', '209-1', 'Сухорукова', 'лр',2),
     createElement('18:05', 'Дизайн', '200-3а', 'Кантарович', 'лк', 2),
 ]
