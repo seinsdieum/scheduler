@@ -7,17 +7,26 @@
     border-radius: 15px;
     margin-bottom: 10px;
     overflow: hidden;
+    transition: 0.1s ease-in-out;
 }
+
+.week__day:not(.expanded):hover .week__day__bar {
+    background: rgba(47, 47, 47, 0.4);
+}
+
 .times {
     overflow-y: scroll;
     transition: 0.1s all ease-out;
     max-height: 0;
+    opacity: 0;
+
 }
 
 
 .week__day.expanded .times  {
     transition: 0.5s all ease-in-out;
     max-height: 1000px;
+    opacity: 1;
 }
 
 .week__day__bar {
@@ -25,7 +34,14 @@
     width: 100%;
     padding: 10px;
     z-index: 1;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
 }
+
+div:has(.week__day.expanded) .week__day:not(.expanded, :hover) {
+    opacity: 0.4;
+}
+
 
 
 

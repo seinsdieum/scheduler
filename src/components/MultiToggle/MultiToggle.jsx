@@ -5,13 +5,19 @@ const MultiToggle = ({options, current, ...props}) => {
     const [currentIndex, setCurrentIndex] = useState(current || undefined)
     const selectRef = useRef(null)
     const toggleRef = useRef(null)
-    const initialized = useState(false)
 
     useEffect(() => {
         if(!currentIndex) {
             selectRef.current.style.width = 0
-        } else {
-
+        } else if(options && selectRef.current) {
+            const currentSimulation = () => {
+                return <div className={style.toggle} >key={options[current-1].name}</div>
+            }
+            const el = currentSimulation()
+            const rect = el.getBoundingClientRect()
+            const toggleRect = toggleRef.current.getBoundingClientRect()
+            selectRef.current.style.width = `${rect.width+10}px`
+            selectRef.current.style.marginLeft = `${rect.x - toggleRect.x-5}px`
         }
     }, [])
 

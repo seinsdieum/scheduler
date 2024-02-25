@@ -5,6 +5,8 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding: 10px;
+    animation: 0.4s appear ease-in-out;
+    overflow: hidden;
 }
 
 .element:not(:last-child) {
@@ -34,4 +36,13 @@
 .right {
     text-align: right;
 
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
