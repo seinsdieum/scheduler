@@ -1,7 +1,7 @@
 .week__day {
     display: flex;
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--system-third-color);
 
     width: 100%;
     border-radius: 15px;
@@ -11,7 +11,7 @@
 }
 
 .week__day:not(.expanded):hover .week__day__bar {
-    background: rgba(47, 47, 47, 0.4);
+    background: var(--system-third-color);
 }
 
 .times {
@@ -25,12 +25,12 @@
 
 .week__day.expanded .times  {
     transition: 0.5s all ease-in-out;
-    max-height: 1000px;
+    max-height: 400px;
     opacity: 1;
 }
 
 .week__day__bar {
-    background: rgb(47, 47, 47);
+    background: var(--system-second-color);
     width: 100%;
     padding: 10px;
     z-index: 1;
