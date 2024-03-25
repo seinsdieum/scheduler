@@ -1,10 +1,22 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import style from './TimeElement.module.css'
-const TimeElement = ({element}) => {
+import Icon from "../Icon/Icon.jsx";
+import labSrc from '../../../icons/lab.svg'
+import lecSrc from '../../../icons/lecture.svg'
+import practSrc from '../../../icons/practice.svg'
+const TimeElement = ({element, type}) => {
+    const [src, setSrc] = useState(labSrc)
+
+    useEffect(() => {
+        if(type === 'лк') setSrc(lecSrc)
+        if(type === 'пз') setSrc(practSrc)
+        if(type === 'лр') setSrc(labSrc)
+    }, [])
+
     return (
         <div className={style.element}>
             <div>
-                <h3><span className={style.type}>{element.type}</span>{element.name} </h3>
+                <h3><span><Icon src={src}></Icon></span><span>{element.name}</span> </h3>
                 <p className={style.time}>{element.time}</p>
             </div>
            <div className={style.right}>

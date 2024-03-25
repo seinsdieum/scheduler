@@ -5,7 +5,7 @@ const createElement = (time, name, auditory, teacher, type, weekRelation) => {
 const mondaySchedule = [
     createElement('14:40', 'Мат прога', '200-3a', 'Бурмакова', 'лк'),
     createElement('16:30', 'ТРПИ', '301-4', 'Кудлацкая', 'лк'),
-    createElement('18:05', 'Шизоэкономия', '239-4', 'пизда', 'пз', 1),
+    createElement('18:05', 'Политэкономия', '239-4', 'непомню', 'пз', 1),
     createElement('18:05', 'Дизайн', '202-4', 'Кантарович', 'лр', 2),
 ]
 
@@ -18,8 +18,8 @@ const tuesdaySchedule = [
 
 const wednesdaySchedule = [
     createElement('14:40', 'Физра', '', '', 'пз'),
-    createElement('16:30', 'Шизоэкономия', '100-3a', 'пизда', 'лк'),
-    createElement('18:05', 'Мат прога', '202-4', 'Алешаукас', 'лр'),
+    createElement('16:30', 'Политэкономия', '100-3a', 'Новикова', 'лк'),
+    createElement('18:05', 'Мат прога', '202-4', 'Алешаускас', 'лр'),
     createElement('19:40', 'ТПВИ', '204-1', 'Гончар', 'лр' ),
 ]
 const thirsdaySchedule = [

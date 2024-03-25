@@ -4,7 +4,8 @@
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    width: 300px;
+    width: 400px;
+
 }
 
 .schedule > * {
@@ -12,5 +13,16 @@
 }
 
 .schedule > h1 {
-    margin-bottom: 1em;
+}
+
+.schedule__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width < 400px) {
+    .schedule {
+        width: 100%;
+    }
 }

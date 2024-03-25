@@ -18,7 +18,7 @@ const Schedule = () => {
     return (
         <div className={style.schedule}>
             <MultiToggle current={0} options={toggleOptions}></MultiToggle>
-            <div>
+            <div className={style.schedule__container}>
                 {currentSchedule.map(d => <WeekDay key={d.day} weekDay={d}></WeekDay>)}
             </div>
         </div>

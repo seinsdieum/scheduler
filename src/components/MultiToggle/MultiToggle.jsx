@@ -24,8 +24,8 @@ const MultiToggle = ({options, current, ...props}) => {
     function handleTogglePosition(e) {
         const rect = e.target.getBoundingClientRect()
         const toggleRect = toggleRef.current.getBoundingClientRect()
-        selectRef.current.style.width = `${rect.width+10}px`
-        selectRef.current.style.marginLeft = `${rect.x - toggleRect.x-5}px`
+        selectRef.current.style.width = `${rect.width}px`
+        selectRef.current.style.marginLeft = `${rect.x - toggleRect.x}px`
     }
     function handleToggle(action, e) {
         handleTogglePosition(e)

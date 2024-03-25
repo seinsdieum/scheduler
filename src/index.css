@@ -1,11 +1,14 @@
 :root {
   --system-r: 20;
-  --system-g: 20;
-  --system-b: 25;
+  --system-g: 25;
+  --system-b: 20;
 
-  --fore-r: calc(255 - var(--system-r));
-  --fore-g: calc(255 - var(--system-g));
-  --fore-b: calc(255 - var(--system-b));
+  --fore-r: calc(255 - var(--system-r)*2);
+  --fore-g: calc(255 - var(--system-g)*2);
+  --fore-b: calc(255 - var(--system-b)*2);
+
+  --radius: 25px;
+  --padding: 10px;
 
 
   --system-back-color: rgb(var(--system-r), var(--system-g), var(--system-b));
@@ -14,8 +17,8 @@
 
   --system-fore-color: rgb(var(--fore-r), var(--fore-g), var(--fore-b));
 
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: 'Inter', Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1;
   font-weight: 400;
 
   color-scheme: light dark;
@@ -98,8 +101,12 @@ button:focus-visible {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --system-r: 20;
-    --system-g: 20;
-    --system-b: 20;
+    --system-r: 18;
+    --system-g: 25;
+    --system-b: 18;
+
+    --fore-r: 220;
+    --fore-g: 240;
+    --fore-b: 220;
   }
 }
