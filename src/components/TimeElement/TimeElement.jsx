@@ -4,13 +4,13 @@ import Icon from "../Icon/Icon.jsx";
 import labSrc from '../../../icons/lab.svg'
 import lecSrc from '../../../icons/lecture.svg'
 import practSrc from '../../../icons/practice.svg'
-const TimeElement = ({element, type}) => {
+const TimeElement = ({element}) => {
     const [src, setSrc] = useState(labSrc)
 
     useEffect(() => {
-        if(type === 'лк') setSrc(lecSrc)
-        if(type === 'пз') setSrc(practSrc)
-        if(type === 'лр') setSrc(labSrc)
+        if(element.type === 'лк') setSrc(lecSrc)
+        if(element.type === 'пз') setSrc(practSrc)
+        if(element.type === 'лр') setSrc(labSrc)
     }, [])
 
     return (

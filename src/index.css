@@ -30,6 +30,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root * {
+  -webkit-tap-highlight-color: transparent;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }

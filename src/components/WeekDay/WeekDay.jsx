@@ -27,7 +27,7 @@ const WeekDay = ({weekDay}) => {
             </div>
             <div ref={timesRef} className={style.times}>
                 {weekDay.schedule.map((d,index) => {
-                    if(!d.weekRelation) return <TimeElement key={d.name+d.type} type={d.type} element={d}></TimeElement>
+                    if(!d.weekRelation) return <TimeElement key={d.name+d.type} element={d}></TimeElement>
                     else if(d.weekRelation === week) return <TimeElement key={d.name} element={d}></TimeElement>
                     else return ''
                 })}

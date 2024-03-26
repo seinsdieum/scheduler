@@ -32,6 +32,11 @@
     padding: var(--padding);
 }
 
+.week__day.expanded .times h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
 .week__day__bar {
     background: var(--system-second-color);
     width: 100%;
