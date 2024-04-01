@@ -8,10 +8,7 @@ import pdfSrc from '../../../icons/pdf.svg'
 const BaseLayout = () => {
     return (
         <div className={style.base__layout}>
-            <header>
-                <Icon src={fitSrc}></Icon>
-                <h2>schedule</h2>
-            </header>
+
             <main>
                 <Outlet></Outlet>
             </main>
