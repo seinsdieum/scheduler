@@ -1,5 +1,5 @@
 .multi__select {
-    background: rgba(var(--fore-r),var(--fore-g),var(--fore-b), 0.05);
+    background: rgba(var(--fore-r),var(--fore-g),var(--fore-b), 0.1);
     min-height: 100%;
     max-height: 100%;
     position: absolute;
@@ -41,5 +41,5 @@
 }
 
 .multi__toggle:hover {
-    background: var(--system-second-color);
+    background: var(--system-third-color);
 }
