@@ -7,7 +7,7 @@ import { VitePWA } from "vite-plugin-pwa";
 
 const manifestForPlugIn = {
   registerType:'prompt',
-  includeAssests:['favicon.ico', "apple-touc-icon.png", "masked-icon.svg"],
+  includeAssests:['icons/fit.svg', "apple-touc-icon.png", "masked-icon.svg"],
   manifest:{
     name:"Расписание ФИТ-2-5",
     short_name:"Расписание",
@@ -40,8 +40,8 @@ const manifestForPlugIn = {
     theme_color:'#8CDC8CFF',
     background_color:'#141914FF',
     display:"standalone",
-    scope:'/',
-    start_url:"/",
+    scope:'/scheduler',
+    start_url:"/scheduler",
     orientation:'portrait'
   }
 }
