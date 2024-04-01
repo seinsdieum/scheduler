@@ -38,7 +38,7 @@ const manifestForPlugIn = {
       }
     ],
     theme_color:'#8CDC8CFF',
-    background_color:'#141914FF',
+    background_color:'#121912',
     display:"standalone",
     scope:'/scheduler',
     start_url:"/scheduler",

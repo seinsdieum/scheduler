@@ -10,6 +10,12 @@
 .base__layout header {
     display: flex;
     gap: 5px;
+
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: var(--system-third-color);
+    border-radius: var(--radius);
 }
 
 footer {
