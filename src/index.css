@@ -3,6 +3,7 @@
   --system-g: 25;
   --system-b: 20;
 
+
   --fore-r: calc(255 - var(--system-r)*2);
   --fore-g: calc(255 - var(--system-g)*2);
   --fore-b: calc(255 - var(--system-b)*2);
