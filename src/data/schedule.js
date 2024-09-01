@@ -2,44 +2,68 @@ const createElement = (time, name, auditory, teacher, type, weekRelation) => {
     return {time: time, name: name, auditory: auditory, teacher: teacher,type:type, weekRelation: weekRelation}
 }
 
+const lk = 'лк'
+const pz = 'пз'
+const lr = 'лр'
+
+const first = '8:00'
+const second = '9:35'
+const third = '11:25'
+const fourth = '13:00'
+
+const fizra = 'Физ-ра'
+const tpvi = 'ТПВИ'
+const bzc = 'БЖЧ'
+const os = 'ОС'
+const tpo = 'ТПО'
+const bd = 'БД'
+const psp = 'ПСП'
+const sp = 'СП'
+const kms = 'КМС'
+const pskp = 'ПСКП'
+
+
 const mondaySchedule = [
-    createElement('14:40', 'Мат прога', '200-3a', 'Бурмакова', 'лк'),
-    createElement('16:30', 'ТРПИ', '301-4', 'Кудлацкая', 'лк'),
-    createElement('18:05', 'Политэкономия', '239-4', 'непомню', 'пз', 1),
-    createElement('18:05', 'Дизайн', '202-4', 'непомню', 'лр', 2),
+    createElement(second, tpvi, '204-1', '-', lr, 1),
+    createElement(second, bzc, '146, 153-4', '-', lr, 2),
+    createElement(third, os, '209-1', '-', lr),
 ]
 
 const tuesdaySchedule = [
-    createElement('14:40', 'БД', '110а-1', 'Харланович', 'лр'),
-    createElement('16:30', 'ТРПИ', '324-1', 'Кудлацкая', 'лр', 1),
-    createElement('16:30', 'РиАТ', '209-1', 'Сухорукова', 'лр',2),
-    createElement('18:05', 'Дизайн', '200-3а', 'Кантарович', 'лк', 2),
+    createElement(first, bd, '137-4', 'Нистюк', lk),
+    createElement(second, psp, '413-1', '-', lr),
+
 ]
 
 const wednesdaySchedule = [
-    createElement('14:40', 'Физра', '', '', 'пз'),
-    createElement('16:30', 'Политэкономия', '100-3a', 'Новикова', 'лк'),
-    createElement('18:05', 'Мат прога', '202-4', 'Алешаускас', 'лр'),
-    createElement('19:40', 'ТПВИ', '204-1', 'Гончар', 'лр' ),
+    createElement(first, psp, '100-3a', 'Шиман', lk),
+    createElement(second, bzc, '100-3a', 'Штепа', lk),
+    createElement(third, tpo, '202-4', '-', lr),
+
+
 ]
 const thirsdaySchedule = [
-    createElement('14:40', 'ОКГ', '324-1', 'Дятко', 'лр'),
-    createElement('16:30', 'ОКГ', '132-4', 'Дятко', 'лк', 1),
-    createElement('16:30', 'РиАТ', '132-4', 'Сухорукова', 'лк', 2),
-    createElement('18:05', 'ООП', '132-4', 'Мущук', 'лк'),
-    createElement('19:40', 'ТРПИ', '324-1', 'Кудлацкая', 'лр'),
+    createElement(first, os, '100-3a', 'Пилинога', lk),
+    createElement(second, kms, '301-1', '-', lr, 1), //1
+    createElement(second, bzc, '151-4', '-', lr, 2), //2
+    createElement(third, fizra, '', '', pz),
+
 ]
 
 const fridaySchedule = [
-    createElement('14:40', 'Физра', '', '', 'пз'),
-    createElement('16:30', 'ООП', '209-1', 'Сухорукова', 'лр'),
-    createElement('18:05', 'ТПВИ', '114-4', 'Гончар', 'лк'),
-    createElement('19:40', 'Философия', '336-4', 'Подручный', 'пз'),
+    createElement(first, sp, '132-4', 'Бернацкий', lk),
+    createElement(second, tpvi, '132-4', 'Смелов', lk, 1),
+    createElement(second, kms, '132-4', 'Гурин', lk, 2),
+    createElement(third, bd, '200a-4', '-', lr),
+
 ]
 
 const saturdaySchedule = [
-    createElement('9:35', 'БД', '222-4', 'Нистюк', 'лк'),
-    createElement('11:25', 'Философия', '408-2', 'Подручный', 'лк'),
+    createElement(first, tpo, '313-1', 'Сухорукова', lk),
+    createElement(second, pskp, '313-1', 'Дубовик', lk),
+    createElement(third, sp, '301-1', '-', lr),
+    createElement(fourth, pskp, '204-1', '-', lr),
+
 ]
 
 

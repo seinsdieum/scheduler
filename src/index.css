@@ -1,7 +1,7 @@
 :root {
-  --system-r: 20;
-  --system-g: 25;
-  --system-b: 20;
+  --system-r: 22;
+  --system-g: 22;
+  --system-b: 22;
 
 
   --fore-r: calc(255 - var(--system-r)*2);
