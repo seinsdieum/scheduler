@@ -24,28 +24,28 @@ const pskp = 'ПСКП'
 
 
 const mondaySchedule = [
-    createElement(second, tpvi, '204-1', '-', lr, 1),
-    createElement(second, bzc, '146, 153-4', '-', lr, 2),
-    createElement(third, os, '209-1', '-', lr),
+    createElement(second, tpvi, '301-1', 'Анастасия', lr, 1),
+    createElement(second, bzc, '146, 153-4', 'мб Штепа', lr, 2),
+    createElement(third, os, '209-1', 'Уласевич', lr),
 ]
 
 const tuesdaySchedule = [
     createElement(first, bd, '137-4', 'Нистюк', lk),
-    createElement(second, psp, '413-1', '-', lr),
+    createElement(second, psp, '413-1', 'Цягунович', lr),
 
 ]
 
 const wednesdaySchedule = [
     createElement(first, psp, '100-3a', 'Шиман', lk),
     createElement(second, bzc, '100-3a', 'Штепа', lk),
-    createElement(third, tpo, '202-4', '-', lr),
+    createElement(third, tpo, '202-4', 'Сухорукова', lr),
 
 
 ]
 const thirsdaySchedule = [
     createElement(first, os, '100-3a', 'Пилинога', lk),
-    createElement(second, kms, '301-1', '-', lr, 1), //1
-    createElement(second, bzc, '151-4', '-', lr, 2), //2
+    createElement(second, kms, '115-1', 'Алешаускас', lr, 1), //1
+    createElement(second, bzc, '151-4', 'мб Штепа', lr, 2), //2
     createElement(third, fizra, '', '', pz),
 
 ]
@@ -54,15 +54,15 @@ const fridaySchedule = [
     createElement(first, sp, '132-4', 'Бернацкий', lk),
     createElement(second, tpvi, '132-4', 'Смелов', lk, 1),
     createElement(second, kms, '132-4', 'Гурин', lk, 2),
-    createElement(third, bd, '200a-4', '-', lr),
+    createElement(third, bd, '200a-4', 'Савельева', lr),
 
 ]
 
 const saturdaySchedule = [
     createElement(first, tpo, '313-1', 'Сухорукова', lk),
     createElement(second, pskp, '313-1', 'Дубовик', lk),
-    createElement(third, sp, '301-1', '-', lr),
-    createElement(fourth, pskp, '204-1', '-', lr),
+    createElement(third, sp, '301-1', 'Бернацкий', lr),
+    createElement(fourth, pskp, '204-1', 'Дубовик', lr),
 
 ]
 

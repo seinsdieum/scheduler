@@ -98,17 +98,17 @@ button:focus-visible {
     --system-g: 230;
     --system-b: 230;
 
-    --system-back-color: rgb(var(--system-r), var(--system-g), var(--system-b));
-    --system-second-color: rgb(calc(var(--system-r) + 9), calc(var(--system-g) + 9), calc(var(--system-b) + 9));
-    --system-third-color: rgb(calc(var(--system-r) + 20), calc(var(--system-g) + 20), calc(var(--system-b) + 20));
+    --system-third-color: rgb(var(--system-r), var(--system-g), var(--system-b));
+    --system-back-color: rgb(calc(var(--system-r) + 9), calc(var(--system-g) + 9), calc(var(--system-b) + 9));
+    --system-second-color: rgb(calc(var(--system-r) + 20), calc(var(--system-g) + 20), calc(var(--system-b) + 20));
   }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --system-r: 18;
-    --system-g: 25;
-    --system-b: 18;
+    --system-r: 10;
+    --system-g: 15;
+    --system-b: 10;
 
     --fore-r: 220;
     --fore-g: 240;
